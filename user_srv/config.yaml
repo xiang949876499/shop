@@ -1,0 +1,16 @@
+nacos:
+  host: '192.168.32.192'
+  port: 8848
+  namespace: 'fca3ee65-1519-4107-854d-186dc5e36c40'
+  dataid: 'user-srv.json'
+  group: 'dev'
+  user: 'nacos'
+  password: 'nacos'
+
+mysql:
+  host: '192.168.32.192'
+  port: 3306
+  user: 'root'
+  password: '0987654321!Aa'
+  name: 'order_srv'
+  db: 'user_srv'

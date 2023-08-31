@@ -1,0 +1,17 @@
+mysql:
+  host: '192.168.32.192'
+  port: 3306
+  name: 'order_srv'
+  db: 'order_srv'
+  user: 'root'
+  password: '0987654321!Aa'
+
+nacos:
+  host: '192.168.32.192'
+  port: 8848
+  namespace: '81731a61-e5fb-4f5f-936f-cf23a9577931'
+  dataid: 'order_srv.json'
+  group: 'dev'
+  user: 'nacos'
+  password: 'nacos'
+
